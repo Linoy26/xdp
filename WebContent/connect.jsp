@@ -51,7 +51,7 @@ System.out.println("typecastflag ->" + typecastflag);
 
 
 Class.forName("com.mysql.jdbc.Driver");
-java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/"+databasenames+"","root","Lino@123");
+java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://xdpdb.czw5dg19knxf.us-east-1.rds.amazonaws.com:3306/"+databasenames+"","root","Lino!123");
 Statement myStmt = con.createStatement();
 
 ResultSet rs;
